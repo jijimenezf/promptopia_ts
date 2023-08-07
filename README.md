@@ -33,5 +33,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-# promptopia_ts
-Exercise from JSMastery (https://www.youtube.com/watch?v=wm5gMKuwSYk) but working with TypeScript
+# Notes from the developer
+This is the exercise from JSMastery (https://www.youtube.com/watch?v=wm5gMKuwSYk) but working with TypeScript.
+
+In a next commit, I'll be trying to add unit testing
