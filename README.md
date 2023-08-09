@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 This is the exercise from JSMastery (https://www.youtube.com/watch?v=wm5gMKuwSYk) but working with TypeScript.
 
 In a next commit, I'll be trying to add unit testing
+
+Adding some basic unit testing
+[![coverage.png](https://i.postimg.cc/rsDjYVZY/coverage.png)](https://postimg.cc/y3z0DHHF)
