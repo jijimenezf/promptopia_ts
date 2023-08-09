@@ -84,16 +84,20 @@ describe("Profile Page", () => {
     })
   });
 
-  /* it("should call edit function when user selects that option", async () => {
+  it("should call edit function when user selects that option", async () => {
     window.fetch = mockFetch<Post[]>(MOCKED_POSTS);
     const user = userEvent.setup();
     const { getAllByText } = setupTest();
 
+    await waitFor(async () => {
+      const editPrompt = getAllByText(/edit/i);
+      await user.click(editPrompt[0]);
+    });
+
     await waitFor(() => {
       expect(window.fetch).toHaveBeenCalledWith("/api/users/1343602570/posts", undefined);
     })
-    const editPrompt = getAllByText(/edit/i);
-    await user.click(editPrompt[0]);
-  }); */
+    
+  });
 
 });
