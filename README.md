@@ -38,5 +38,9 @@ This is the exercise from JSMastery (https://www.youtube.com/watch?v=wm5gMKuwSYk
 
 In a next commit, I'll be trying to add unit testing
 
-Adding some basic unit testing
+# Adding some basic unit testing
+
 [![coverage.png](https://i.postimg.cc/rsDjYVZY/coverage.png)](https://postimg.cc/y3z0DHHF)
+
+As you can see, coverage is not perfect and I am not running tests on /api routes.
+Coverage for pages and components is not so bad.
