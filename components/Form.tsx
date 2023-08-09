@@ -12,6 +12,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit } : FormProps) => 
         {type} and share amazing propmts with the world, and let your imagination run wild with AI-powered platform.
       </p>
       <form
+        data-testid="form"
         onSubmit={handleSubmit}
         className="mt-10 w-full max-w-2xl flex flex-col gap7 glassmorphism"
       >

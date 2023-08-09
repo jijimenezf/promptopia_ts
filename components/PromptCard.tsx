@@ -43,7 +43,11 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete } :PromptCa
           </div>
         </div>
 
-        <div className="copy_btn" onClick={handleCopy}>
+        <div
+          className="copy_btn"
+          onClick={handleCopy}
+          data-testid="copy-div-button"
+        >
           <Image
             src={copied === post.prompt
               ? '/assets/icons/tick.svg'
@@ -59,7 +63,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete } :PromptCa
       <p className="my-4 font-satoshi text-sm text-gray-700">{post.prompt}</p>
       <p
         className={`font-inter text-sm ${showProfileOptions ? '' : 'blue_gradient cursor-pointer'}`}
-        onClick={() => { showProfileOptions ? false : handleTagClick && handleTagClick(post.tag) }}
+        onClick={() => { handleTagClick && handleTagClick(post.tag) }}
       >
         {post.tag}
       </p>
